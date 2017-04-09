@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinners2_array">
+        <item>Room selection</item>
+        <item>N/A</item>
+        <item>LB01</item>
+        <item>LB02</item>
+        <item>LB08</item>
+        <item>LB04</item>
+        <item>HAM3</item>
+        <item>LG35</item>
+    </string-array>
+</resources>

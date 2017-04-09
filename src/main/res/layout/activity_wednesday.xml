@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/image1"
+    android:id="@+id/activity_wednesday"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.group4.joseph.timetablenotifier.Wednesday">
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput1"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:layout_alignBaseline="@+id/modInput1"
+        android:layout_alignBottom="@+id/modInput1"
+        android:layout_alignStart="@+id/locInput12"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput12"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:layout_alignBaseline="@+id/modInput12"
+        android:layout_alignBottom="@+id/modInput12"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignStart="@+id/locInput11"
+        android:textStyle="normal|bold"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput11"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:layout_alignBaseline="@+id/modInput11"
+        android:layout_alignBottom="@+id/modInput11"
+        android:layout_alignStart="@+id/locInput10"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput9"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:layout_marginStart="13dp"
+        android:layout_alignBaseline="@+id/modInput9"
+        android:layout_alignBottom="@+id/modInput9"
+        android:textColor="@android:color/background_dark"
+        android:layout_toEndOf="@+id/modInput9"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:text="9:00"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backbutton"
+        android:layout_marginTop="15dp"
+        android:id="@+id/nineText"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="11:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/elevenText"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="12:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/elevenText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/twelveText"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="13:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twelveText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/oneText"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="14:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oneText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/twoText"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="15:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twoText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/threeText"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="16:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/threeText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fourText"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="17:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fiveText"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="10:00"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tenText"
+        android:layout_below="@+id/nineText"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput4"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:layout_alignBaseline="@+id/modInput4"
+        android:layout_alignBottom="@+id/modInput4"
+        android:layout_alignStart="@+id/locInput3"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput5"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:layout_alignBaseline="@+id/modInput5"
+        android:layout_alignBottom="@+id/modInput5"
+        android:layout_alignStart="@+id/locInput4"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"/>
+
+    <Button
+        android:text="Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/backbutton"
+        android:textSize="14sp"
+        android:background="@drawable/buttoncorners"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/background_dark"  />
+
+    <TextView
+        android:text="Wednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="1dp"/>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput9"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/nineText"
+        android:layout_toEndOf="@+id/tenText" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput10"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignBottom="@+id/tenText"
+        android:layout_toEndOf="@+id/tenText" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput11"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/elevenText"
+        android:layout_toEndOf="@+id/tenText" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput12"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/twelveText"
+        android:layout_alignStart="@+id/modInput11" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput1"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/oneText"
+        android:layout_alignStart="@+id/modInput12" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput10"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/modInput10"
+        android:layout_alignStart="@+id/locInput9" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput2"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/twoText"
+        android:layout_alignStart="@+id/modInput1" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput3"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/threeText"
+        android:layout_alignStart="@+id/modInput2" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput2"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/modInput2"
+        android:layout_alignStart="@+id/locInput1" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/locInput3"
+        android:layout_width="120dp"
+        android:hint="Location"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/modInput3"
+        android:layout_alignStart="@+id/locInput2" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput4"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/fourText"
+        android:layout_alignStart="@+id/modInput3" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modInput5"
+        android:layout_width="120dp"
+        android:hint="Module"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/fiveText"
+        android:layout_alignStart="@+id/modInput4" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/settings_image"
+        android:id="@+id/settingsButton"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/modInput9" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/forwardButton"
+        android:textSize="14sp"
+        android:background="@drawable/buttoncorners"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignBaseline="@+id/backbutton"
+        android:layout_alignBottom="@+id/backbutton"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <Button
+        android:text="Main Menu"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:layout_height="40dp"
+        android:textSize="14sp"
+        android:background="@drawable/buttoncorners"
+        android:textStyle="normal|bold"
+        android:id="@+id/mainMenuButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

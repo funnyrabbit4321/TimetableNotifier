@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Timetable Notifier</string>
+    <string name="edit_message">Enter a Module</string>
+    <string name="edit_message1">Enter a Location</string>
+    <string name="button_send">Send</string>
+
+</resources>

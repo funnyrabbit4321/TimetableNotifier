@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/matthew/Downloads/TimetableNotifier/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/matthew/Downloads/TimetableNotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/matthew/Downloads/TimetableNotifier/C:\\Users\\Joseph\\AndroidStudioProjects\\TimetableNotifier\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "/home/matthew/Downloads/TimetableNotifier/C:\\Users\\Joseph\\AndroidStudioProjects\\TimetableNotifier\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-tagmanager-v4-impl\\10.0.1\\res\\raw\\gtm_analytics"
+    }
+]

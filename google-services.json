@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "303623482575",
+    "firebase_url": "https://timetablenotifier.firebaseio.com",
+    "project_id": "timetablenotifier",
+    "storage_bucket": "timetablenotifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303623482575:android:b20e5e1382a582b2",
+        "android_client_info": {
+          "package_name": "com.group4.joseph.timetablenotifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303623482575-f5svihpihve6ckqn18rakd4oipdmcsul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.group4.joseph.timetablenotifier",
+            "certificate_hash": "967e40fe711849c7ff792e1f8afe7248475bd0f4"
+          }
+        },
+        {
+          "client_id": "303623482575-n1ec8iobdsl23o21k0u4ef501ggtlvbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9c3HSprGZEOgHPb4W53_6SxR0ahXPN3g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303623482575-n1ec8iobdsl23o21k0u4ef501ggtlvbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

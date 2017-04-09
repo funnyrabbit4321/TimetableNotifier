@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    >
+
+    <TextView
+        android:text="Day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customrowText"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center" />
+
+</LinearLayout>

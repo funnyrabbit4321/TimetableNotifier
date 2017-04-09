@@ -1,0 +1,7 @@
+#Fri Apr 07 11:29:47 BST 2017
+base.0=C\:\\Users\\Joseph\\AndroidStudioProjects\\TimetableNotifier\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Joseph\\AndroidStudioProjects\\TimetableNotifier\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+base.1=C\:\\Users\\Joseph\\AndroidStudioProjects\\TimetableNotifier\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+file.0=C\:\\Users\\Joseph\\AndroidStudioProjects\\TimetableNotifier\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes2.dex
